@@ -1,0 +1,36 @@
+.bottomMenu {
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: darkgray;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 0px 20px;
+  border-bottom: solid 4px #eaeaea;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemsLeft {
+  width: 100px;
+}
+.selectionBlock {
+  display: flex;
+  gap: 20px;
+}
+
+.selectionBlock > div {
+  cursor: pointer;
+  padding: 0px 10px;
+}
+
+.choosedShow {
+  border: 2px solid #777;
+  border-radius: 4px;
+}
+
+.clearComleted {
+  cursor: pointer;
+}
